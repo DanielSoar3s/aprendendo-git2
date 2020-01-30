@@ -18,6 +18,7 @@
 - [x] Antes de enviar a solução, precisamos atualizar o projeto local
 
 - [x] Voce precisa voltar um arquivo para um determinado momento da linha do tempo
+- [x] Voce precisa recuperar algo deletado
 
 git init // inicia linha do tempo
 git add // adciona ou atualiza mudanças para irem para a linha do tempo
@@ -33,6 +34,7 @@ git clone // pega projetos da nuvem para colocar na minha máquina (com o link d
 git checkout - b (nome) //cria branch e já troca pra ela
 git commit -am "" // commit direto sem precisar add primeiro 
 git pull //  puxar atualizações que que fizeram na nuvem
+git checkout -- (arquivo para ser restaurado) // recuperar arquivo deletado
 
 
 git log -> git checkout (linha do tempo aqui adquirida no git log) -- (arquivo ao qual quer voltar)
